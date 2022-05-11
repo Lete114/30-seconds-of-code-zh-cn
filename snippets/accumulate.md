@@ -1,5 +1,5 @@
 ---
-title: Partial sum array
+title: 数组累加
 tags: math,array
 expertise: intermediate
 author: chalarangelo
@@ -7,11 +7,11 @@ firstSeen: 2020-05-04T12:20:46+03:00
 lastUpdated: 2022-01-30T13:10:13+02:00
 ---
 
-Creates an array of partial sums.
+创建一个数组累加器
 
-- Use `Array.prototype.reduce()`, initialized with an empty array accumulator to iterate over `nums`.
-- Use `Array.prototype.slice()` to get the previous partial sum or `0` and add the current element to it.
-- Use the spread operator (`...`) to add the new partial sum to the accumulator array containing the previous sums.
+- 使用`Array.prototype.reduce()`，初始化为一个空的数组累加器，对`nums`进行迭代。
+- 使用`Array.prototype.slice()`来获取前一个累加结果。
+- 使用扩展运算符(`...`)将新的总和与之前的总累加到数组中。
 
 ```js
 const accumulate = (...nums) =>
