@@ -1,5 +1,5 @@
 ---
-title: Add class to HTML element
+title: 给元素添加 class 属性
 tags: browser
 expertise: beginner
 author: chalarangelo
@@ -8,9 +8,9 @@ firstSeen: 2020-12-30T19:21:15+02:00
 lastUpdated: 2020-12-30T19:21:15+02:00
 ---
 
-Adds a class to an HTML element.
+向HTML元素添加一个class属性。
 
-- Use `Element.classList` and `DOMTokenList.add()` to add the specified class to the element.
+- 使用`Element.classList`将指定的class属性添加到元素中。
 
 ```js
 const addClass = (el, className) => el.classList.add(className);
